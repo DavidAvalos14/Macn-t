@@ -76,6 +76,12 @@ struct ContentView: View {
                         .tint(.primary)
                     }
                 }
+
+                Section {
+                    Text("22130800 Angel David Avalos Carrillo")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
             }
             .navigationTitle("Ferretería")
             .alert("Aviso", isPresented: $mostrarAlerta) {
