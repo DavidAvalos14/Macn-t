@@ -38,6 +38,8 @@ struct ContentView: View {
                     .font(.caption)
                     .foregroundStyle(.orange)
             }
+            Text("22130800 Angel David Avalos Carrillo")
+                .font(.caption)
         }
         .padding()
         .background(Color.black)
